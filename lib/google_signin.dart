@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:google_sign_in/google_sign_in.dart';
 import 'package:google_signin_with_oauth/auth.dart';
 
 class GoogleSignInPractice extends StatefulWidget {
@@ -11,7 +10,6 @@ class GoogleSignInPractice extends StatefulWidget {
 
 class _GoogleSignInPracticeState extends State<GoogleSignInPractice> {
   Auth auth = Auth();
-  GoogleSignIn signIn = GoogleSignIn();
   @override
   Widget build(BuildContext context) {
     return Scaffold(
